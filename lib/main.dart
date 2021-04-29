@@ -1,5 +1,6 @@
-import 'package:com_example/example_1/example_1_page.dart';
-import 'package:com_example/example_2/example_2_page.dart';
+// import 'package:com_example/example_1/example_1_page.dart';
+// import 'package:com_example/example_2/example_2_page.dart';
+import 'package:com_example/bootcamp_exercise_1/excercise_1_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,6 +18,6 @@ class MyApp extends StatelessWidget {
             accentColor: Colors.pinkAccent[700],
             floatingActionButtonTheme: FloatingActionButtonThemeData(
                 backgroundColor: Theme.of(context).primaryColor)),
-        home: Example2Page());
+        home: ExcercisePage());
   }
 }
